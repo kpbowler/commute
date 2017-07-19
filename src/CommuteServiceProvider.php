@@ -6,6 +6,7 @@ use Illuminate\Support\ServiceProvider;
 
 class CommuteServiceProvider extends ServiceProvider
 {
+    protected $namespace = 'Kpbowler\Commute\Http\Controllers';
     /**
      * Bootstrap the application services.
      *
@@ -24,5 +25,12 @@ class CommuteServiceProvider extends ServiceProvider
     public function register()
     {
 
+    }
+
+    public function map(Router $router)
+    {
+        $router->group(['namespace' => $this->namespace], function ($router) {
+            require __DIR__.'/Http/routes.php';
+        });
     }
 }

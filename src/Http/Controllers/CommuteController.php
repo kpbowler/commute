@@ -2,9 +2,9 @@
 
 namespace Kpbowler\Commute\Http\Controllers;
 
-use App\Http\Controllers\Controller;
+use Illuminate\Routing\Controller as BaseController;
 
-class CommuteController extends Controller
+class CommuteController extends BaseController
 {
     public function deploy()
     {
