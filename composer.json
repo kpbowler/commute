@@ -1,0 +1,16 @@
+{
+    "name": "kpbowler/commute",
+    "description": "A package to orchestrate the release of Laravel projects.",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^6.3",
+        "laravel/envoy": "^1.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kevin Bowler",
+            "email": "kevin@kpbowler.co.uk"
+        }
+    ]
+}
