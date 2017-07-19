@@ -12,5 +12,15 @@
             "name": "Kevin Bowler",
             "email": "kevin@kpbowler.co.uk"
         }
-    ]
+    ],
+  "autoload": {
+    "psr-4": {
+      "Kpbowler\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Kpbowler\\Tests\\": "tests/"
+    }
+  }
 }
