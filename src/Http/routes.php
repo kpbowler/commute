@@ -1,4 +1,4 @@
 <?php
 
 Route::get('api/commute/deploy',
-'CommuteController@deploy');
+'Kpbowler\Commute\Http\Controllers\CommuteController@deploy');
