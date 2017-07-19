@@ -13,7 +13,7 @@ class CommuteServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->loadRoutesFrom(__DIR__.'/routes.php');
+        $this->loadRoutesFrom(__DIR__.'/Http/routes.php');
     }
 
     /**
@@ -23,6 +23,6 @@ class CommuteServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->make('Kpbowler\Commute\CommuteController');
+
     }
 }

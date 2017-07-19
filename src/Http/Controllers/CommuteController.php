@@ -1,6 +1,6 @@
 <?php
 
-namespace Kpbowler\Commute;
+namespace Kpbowler\Commute\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 
