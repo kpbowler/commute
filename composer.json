@@ -20,7 +20,7 @@
   },
   "autoload-dev": {
     "psr-4": {
-      "\\Kpbowler\\Commute\Tests\\": "tests/"
+      "\\Kpbowler\\Commute\\Tests\\": "tests/"
     }
   }
 }
