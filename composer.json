@@ -15,12 +15,12 @@
     ],
   "autoload": {
     "psr-4": {
-      "Kpbowler\\": "src/"
+      "Kpbowler\\Commute": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Kpbowler\\Tests\\": "tests/"
+      "Kpbowler\\Commute\Tests\\": "tests/"
     }
   }
 }
